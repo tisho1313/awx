@@ -1,5 +1,5 @@
 - name: Install MariaDB on Ubuntu
-  hosts: node1
+  hosts: All
   become: true
   tasks:
     - name: Update APT Package Cache
